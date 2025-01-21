@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Heebo, sans-serif;
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1450%;
+  padding-inline: 80px;
+}
+
+#header {
+  padding-block: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.header a {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+
+#mid {
+  padding-block: 200px;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  max-width: 450px;
+}
+
+.main-content h1 {
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 60px;
+}
+
+.main-content p {
+  padding: 20px 0;
+  font-weight: 400px;
+  font-style: 16px;
+  line-height: 24px;
+}
+
+.main-content button {
+  background: #ff6464;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 10px;
+  font-size: 16px;
+}
+
+#post {
+  padding-block: 50px;
+  background: #edf7fa;
+}
+
+.post-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.post-top p {
+  font-size: 18px;
+}
+
+.post-top a {
+  font-size: 12px;
+  color: #00a8cc;
+}
+
+.post {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: #edf7fa; */
+}
+
+.post .cart {
+  width: 100%;
+  max-width: 380px;
+  background: #fff;
+  padding: 20px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  line-height: 30px;
+}
+
+.cart p {
+  font-size: 16px;
+}
+
+.cart-year {
+  display: flex;
+  gap: 20px;
+}
+
+.cart-year p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+#work {
+  padding-block: 50px;
+  line-height: 60px;
+}
+
+.work {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  align-items: center;
+  margin-inline: auto;
+  padding-inline: 80px;
+  gap: 30px;
+  line-height: 50px;
+}
+
+.indent h1 {
+  font-size: 35px;
+}
+
+.indent p {
+  font-size: 18px;
+}
+
+.indent a {
+  color: #8695a4;
+}
+
+.indent button {
+  margin: 8px;
+  padding: 5px 2px;
+  border-radius: 350px;
+  background: #110665;
+  color: #fff;
+}
+
+#social {
+  padding-block: 80px;
+}
+
+.networks {
+  width: 100%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+
+.sylka {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
