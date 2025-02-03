@@ -1,0 +1,29 @@
+@media (max-width: 605px) {
+  .header {
+    display: none;
+    flex-direction: column-reverse;
+  }
+
+  .burger-menu {
+    display: flex;
+  }
+  #main {
+    padding-block: 30px;
+  }
+  .main {
+    flex-direction: column-reverse;
+  }
+  .main-content {
+    text-align: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .post {
+    flex-direction: column;
+  }
+
+  .work {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
