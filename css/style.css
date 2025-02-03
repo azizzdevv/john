@@ -78,22 +78,22 @@ a {
 .main-content button {
   width: 150px;
   height: 37px;
-  background: #ff6464;
-  color: #fff;
   border: none;
   border-radius: 5px;
+  background: #ff6464;
+  color: #fff;
 }
 
 #post {
-  background: #edf7fa;
   padding-block: 40px;
+  background: #edf7fa;
 }
 
 .post-top {
+  padding-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
 }
 
 .post-top p {
@@ -101,10 +101,11 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 .post-top a {
+  display: none;
   font-size: 15px;
   color: #00a8cc;
-  display: none;
 }
 
 .post {
@@ -121,10 +122,10 @@ a {
 }
 
 .post .cart {
+  padding: 20px;
   width: 100%;
   max-width: 380px;
   background: #fff;
-  padding: 20px;
 }
 
 .cart-year {
@@ -156,17 +157,17 @@ a {
 
 .work-top {
   padding: 10px;
-  font-size: 16px;
   display: flex;
   justify-content: center;
+  font-size: 16px;
 }
 
 .work {
+  margin: 20px;
   width: 100%;
   max-width: 1000px;
   display: flex;
   align-items: flex-start;
-  margin: 20px;
 }
 
 .work img {
@@ -176,25 +177,26 @@ a {
 .work {
   display: flex;
   gap: 20px;
-  gap: 22px;
 }
 
 .btn-name {
   display: flex;
   gap: 20px;
 }
-.work h1 {
+
+.indent h1 {
+  max-width: 900px;
   font-size: 26px;
   color: #21243d;
 }
 
-.work p {
+.indent p {
   font-size: clamp(0.75rem, 0.568rem + 0.91vw, 1.25rem);
   line-height: 27px;
   color: #8695a4;
 }
 
-.work button {
+.indent button {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -207,7 +209,14 @@ a {
   font-weight: 700;
 }
 
+.indent {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .indent p {
+  max-width: 5px;
   font-size: 16px;
   font-weight: 400;
   color: #21243d;
