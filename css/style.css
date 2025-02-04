@@ -4,6 +4,8 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: Heebo, sans-serif;
+  border: none;
+  list-style: none;
 }
 
 .container {
@@ -171,7 +173,7 @@ a {
 }
 
 .work img {
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .work {
@@ -244,10 +246,15 @@ a {
   padding-top: 60px;
 }
 
+.social-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .networks {
-  display: grid;
+  display: flex;
   justify-content: center;
-  align-items: center;
   gap: 20px;
 }
 
